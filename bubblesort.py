@@ -32,6 +32,7 @@ print myList[:]
 # Setting variables are fine just copying them in
 i=0
 j=1
+global swap
 # Rather than mapping 1 and 0 to the value of swap use true and False
 swap = True
 # You need an extra loop here to check the swap variable
@@ -39,7 +40,9 @@ while (swap == True):
     # Set swap to false once in the loop
 
     swap = False
-    
+    # Setting variables are fine just copying them in
+    i=0
+    j=1
     # I don't understand why you put the main loop at the bottom it should start here
     while (j < len(myList)):
         # No need to print something but we will do so with some information that is useful.

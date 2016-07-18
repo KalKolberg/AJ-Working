@@ -29,17 +29,14 @@ while (j < len(myList)):
 myList=[69, 18, 12, 43, 59, 83, 7]
 # Next let's print out the full list rather than just one element
 print myList[:]
-# Setting variables are fine just copying them in
-i=0
-j=1
-global swap
+
 # Rather than mapping 1 and 0 to the value of swap use true and False
 swap = True
 # You need an extra loop here to check the swap variable
 while (swap == True):
     # Set swap to false once in the loop
-
     swap = False
+
     # Setting variables are fine just copying them in
     i=0
     j=1
@@ -57,7 +54,6 @@ while (swap == True):
             myList[j] = temp
             # checking to see if swap is getting set to true
             swap = True
-            print "Swap " + str(swap)
         else:
             # Again no reason to print other than the fact you did.
             print "Values are in order"
@@ -66,10 +62,8 @@ while (swap == True):
         # ++ is not defined in the language so this has to change.
         i = i + 1
         j = j + 1
-        print "Swap " + str(swap)
 # this is the end of the program we print out info the sorted list and exit 
 # The code before had an infinite loop that you did not terminate.
-print "Swap " + str(swap)
 print myList[:]
 
         

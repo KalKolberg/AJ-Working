@@ -1,4 +1,3 @@
-# Beginning of file for binary search
 #import math library
 import math
 import sys
